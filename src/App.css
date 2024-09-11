@@ -1,0 +1,38 @@
+/* App.css */
+.checkout-btn {
+  position: fixed;
+  top: 20px; /* Adjust as needed */
+  right: 80px; /* Adjust as needed to avoid overlap with cart button */
+  background-color: #4caf50; /* Adjust color as needed */
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  z-index: 100; /* Ensure it appears on top of other elements */
+}
+
+.checkout-btn:hover {
+  background-color: #45a049; /* Adjust hover color as needed */
+}
+
+.cart-btn {
+  position: fixed;
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  background-color: #ff5722; /* Adjust color as needed */
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  z-index: 100; /* Ensure it appears on top of other elements */
+}
+
+.cart-btn:hover {
+  background-color: #e64a19; /* Adjust hover color as needed */
+}

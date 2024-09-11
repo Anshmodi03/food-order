@@ -1,0 +1,49 @@
+.checkout-page {
+  padding: 2rem;
+  margin: -30px;
+  margin-top: -70px;
+}
+h2 {
+  color: black;
+  background-color: transparent;
+}
+
+.checkout-page form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.checkout-page input {
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+.submit-order-btn {
+  grid-column: span 2;
+  padding: 0.75rem 1.5rem;
+  background-color: #8a2b06;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.submit-order-btn:hover {
+  background-color: #641e03;
+}
+
+.close-checkout-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: #8a2b06;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.close-checkout-btn:hover {
+  color: #641e03;
+}

@@ -1,0 +1,99 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+  position: fixed;
+  top: 27vh;
+  left: 50%;
+  margin-left: -300px;
+  transform: translateX(-50%);
+  width: 40rem;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 100;
+  animation: slide-down 300ms ease-out forwards;
+}
+
+/* Popup actions (input and buttons) styling */
+.meal-actions-popup {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity-input-popup {
+  width: 3rem;
+  padding: 0.25rem;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 6px;
+  margin-right: 1rem;
+}
+
+/* Button styles for Add to Cart and Close */
+.add-to-cart-btn,
+.close-modal-btn {
+  padding: 0.5rem 1.5rem;
+  margin: 0 1rem;
+  background-color: #8a2b06;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-to-cart-btn:hover,
+.close-modal-btn:hover {
+  background-color: #641e03;
+}
+
+/* Modal.css */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 100;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  width: 90%;
+  max-width: 40rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  z-index: 101;
+}
+
+.modal-content {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.content {
+  padding: 1rem;
+}

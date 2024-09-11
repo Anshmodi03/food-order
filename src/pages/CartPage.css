@@ -1,0 +1,51 @@
+/* CartPage.css */
+.cart-page {
+  border: none !important;
+  padding: 2rem;
+  background-color: rgb(255, 255, 255) !important;
+  color: #000;
+  overflow: hidden !important;
+  margin: -30px;
+  border-radius: 0px;
+}
+
+.cart-page h2 {
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.cart-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-page p ul {
+  margin-top: 20px;
+}
+
+.total-amount {
+  text-align: right;
+  font-weight: bold;
+  margin-top: -50px;
+}
+
+.total-amount span {
+  font-size: 1.25rem;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 101; /* Ensure it appears on top of other content */
+}
+
+.close-btn:hover {
+  color: #4d4040; /* Adjust hover color as needed */
+}
