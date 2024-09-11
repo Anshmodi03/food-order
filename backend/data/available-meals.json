@@ -92,10 +92,10 @@
   },
   {
     "id": "m14",
-    "name": "Beef Tacos",
+    "name": "Veg Munchurian",
     "price": "9.99",
-    "description": "Three soft tortillas filled with seasoned beef, fresh salsa, cheese, and sour cream.",
-    "image": "/images/beef-tacos.jpg"
+    "description": "Three soft veg Munchurian, with a spicy and sweet taste to the tongue.",
+    "image": "/images/Veg-munchurain.jpg"
   },
   {
     "id": "m15",
